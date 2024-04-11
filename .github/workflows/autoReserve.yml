@@ -4,12 +4,8 @@
 name: maotai_test-action
 
 on:
-  push:
-    branches: [ "master" ]
-    paths:
-      - '.github/workflows/**'
   schedule:
-    - cron: '51 0,1,2 * * *'
+    - cron: '57 1 * * *'
 
 env:
   TZ: Asia/Shanghai
