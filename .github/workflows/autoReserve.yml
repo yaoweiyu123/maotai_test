@@ -3,7 +3,7 @@
 name: maotai_test-action
 on:
   schedule:
-    - cron: '4 2 * * *'
+    - cron: '20 2 * * *'
 
 env:
   TZ: Asia/Shanghai
